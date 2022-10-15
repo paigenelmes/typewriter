@@ -3,7 +3,7 @@ const sentence = "hello there from lighthouse labs";
 let speed = 1000;
 //for loop over each character
 for (const char of sentence) {
-  //set the timeout and write each character
+  //set the timeout and write each
   setTimeout(() => {
     process.stdout.write(char);
   }, speed);
